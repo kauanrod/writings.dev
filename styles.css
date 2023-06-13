@@ -18,11 +18,11 @@ nav {
   font-size: 18px;
 }
 
-ul {
+.ul-navbar {
   display: flex;
 }
 
-li {
+.li-navbar {
   font-size: 16px;
   list-style: none;
   margin: 0 1rem;
@@ -46,10 +46,53 @@ li {
 .subtitle {
   display: flex;
   justify-content: center;
-  margin: 3rem;
+  margin-top: 0%;
+  margin-bottom: 4rem;
+  font-weight: 400;
 }
 
 hr {
-  color: #4D4D4D;
+  color: #4d4d4d;
   opacity: 0.2;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.list-categories {
+  display: flex;
+}
+
+.list-icons {
+  margin: 0 0.25rem;
+}
+
+.ul-main-text {
+  display: flex;
+  padding: 0px;
+}
+
+.li-main-text {
+  font-family: "Recursive";
+  font-style: italic;
+  font-size: 14px;
+  color: #909090;
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.contents {
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 2rem;
+}
+
+.background-content {
+  background-color: #fff;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5%;
 }
