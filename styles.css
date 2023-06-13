@@ -1,0 +1,55 @@
+body {
+  background-color: #232830;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-home {
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  font-size: 16px;
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Recursive";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 48px;
+  color: #ff7575;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+hr {
+  color: #4D4D4D;
+  opacity: 0.2;
+}
