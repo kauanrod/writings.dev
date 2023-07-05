@@ -39,7 +39,9 @@ Just download 'Live Server' and u should see something like that: 😁
 ## :dart: Project Status
 For now, everything is done. ✅
 
+<br>
 <hr />
+<br>
 
 ### 🇧🇷 PT-BR
 
