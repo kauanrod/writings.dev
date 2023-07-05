@@ -31,6 +31,7 @@ nav {
 .logo {
   display: flex;
   justify-content: center;
+  margin-left: 3.125rem;
 }
 
 .title {
@@ -85,14 +86,135 @@ hr {
 
 .contents {
   display: grid;
-	grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.18fr);
   justify-items: center;
+  justify-content: center;
   padding: 2rem;
 }
 
 .background-content {
   background-color: #fff;
-  height: 15rem;
-  width: 15rem;
+  height: 22rem;
+  width: 18rem;
   border-radius: 7.5%;
+  margin-bottom: 2rem;
+}
+
+.img-content {
+  width: 15.5rem;
+  margin: 1.25rem;
+  margin-bottom: 0rem;
+}
+
+.content-title {
+  margin: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f1217;
+  text-align: start;
+  height: 3.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-subtitle {
+  margin: 1.25rem;
+  margin-top: 0.25rem;
+  font-size: 14px;
+  color: #0f1217;
+  text-align: start;
+  height: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-info {
+  color: #0f1217;
+  font-size: 12px;
+  margin-left: 1.25rem;
+}
+
+.ellipse {
+  display: inline-flex;
+  margin: 0 5px;
+  width: 3px;
+  height: 3px;
+  vertical-align: middle;
+  background: #0f1217;
+  border-radius: 50%;
+}
+
+.ul-footer-text {
+  display: flex;
+  padding: 0px;
+}
+
+.li-footer-text {
+  font-family: "Recursive";
+  font-style: italic;
+  font-size: 14px;
+  color: #909090;
+  list-style: none;
+  margin: 0.25rem 0.5rem;
+}
+
+.span-footer-text:is(:hover, :focus, :active, :visited) {
+  border-top: 2px solid #ff7575;
+}
+
+a {
+  text-decoration: none;
+  color: #909090;
+}
+
+a:is(:hover, :active) {
+  color: #ff7575;
+  font-weight: 700;
+}
+
+.span-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+footer {
+  margin: 3rem 0 1rem 0;
+}
+
+.twitter-span {
+  background-color: #2daae1;
+  padding: 3.5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.github-span {
+  background-color: #14191e;
+  padding: 3.5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.github-link:is(:hover, :active) {
+  color: #9a9a9a;
+  font-weight: 700;
+  transition: .25s;
+}
+
+.footer-img {
+  width: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+  margin-bottom: 3px;
 }
