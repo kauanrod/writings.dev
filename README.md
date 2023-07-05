@@ -58,6 +58,10 @@ Como eu disse antes, apesar do HTML e o CSS estarem funcionando perfeitamente, �
 
 ## :rocket: Rodando o projeto
 Pra esse projeto é só baixar o 'Live Server' no VSCode ou rodar o arquivo HTML que já vai funcionar legal! 😁
+<br>Você deve ver essa tela:
+<div style="display: flex; justify-content: center;">
+  <img src="assets/landing_page_example.gif">
+</div>
 
 ## :soon: Implementações futuras
 * Bom, quem sabe o que nos aguarda no futuro né... Vai que algum dia eu volto pra colocar um JSzão pra finalizar uns detalhes do front e acrescentar outras coisas! 🤷‍♂️
