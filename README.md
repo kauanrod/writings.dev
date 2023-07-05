@@ -7,8 +7,6 @@ The objective of this project is to improve my skills with HTML and CSS, and of 
 
 ## :books: Functionalities
 Actually, as i say earlier, despite the HTML and CSS is doing perfectly, is just to have some kinda of fun, after all, it doesn't have any code haha ^^
-<br>
-<!--<img align="center" src="https://drive.google.com/file/d/1wmJ27v5hqiZ257UVZGUCI-1ahnhjC8Qe/view?usp=sharing">-->
 
 ## :wrench: Languages used
 * HTML
@@ -16,7 +14,10 @@ Actually, as i say earlier, despite the HTML and CSS is doing perfectly, is just
 * No programming language 😬
 
 ## :rocket: Running the project
-Just download 'Live Server' and everything will just works fine 😁
+Just download 'Live Server' and u should see something like that: 😁
+<div style="display: flex; justify-content: center;">
+  <img src="assets/landing_page_example.gif">
+</div>
 
 ## :soon: Future implementations
 * Well, who knows what future holds to us... Maybe i can get back in this project someday and do the logic behind the page! 🤷‍♂️
