@@ -15,7 +15,7 @@ Actually, as i say earlier, despite the HTML and CSS is doing perfectly, is just
 
 ## :rocket: Running the project
 Just download 'Live Server' and u should see something like that: 😁
-<div style="display: flex; justify-content: center;">
+<div align="center">
   <img src="assets/landing_page_example.gif">
 </div>
 
@@ -59,7 +59,7 @@ Como eu disse antes, apesar do HTML e o CSS estarem funcionando perfeitamente, �
 ## :rocket: Rodando o projeto
 Pra esse projeto é só baixar o 'Live Server' no VSCode ou rodar o arquivo HTML que já vai funcionar legal! 😁
 <br>Você deve ver essa tela:
-<div style="display: flex; justify-content: center;">
+<div align="center">
   <img src="assets/landing_page_example.gif">
 </div>
 
